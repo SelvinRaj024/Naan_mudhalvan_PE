@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?technology,engineering') no-repeat center center/cover;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: 700;
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 20px 0 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #f0db4f;
+            text-decoration: underline;
+        }
+        
+        section {
+            padding: 60px 0;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        section h2 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+        }
+        
+        .project {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #333;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .project:hover {
+            background-color: #f0f0f0;
+            border-color: #555;
+        }
+
+        .project h3 {
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+
+        .project p {
+            margin: 0.5em 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        #contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        #contact-form input, 
+        #contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+        }
+        
+        #contact-form input:focus, 
+        #contact-form textarea:focus {
+            border-color: #333;
+        }
+        
+        #contact-form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        #contact-form button:hover {
+            background-color: #555;
+            transform: translateY(-2px);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Engineering Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img src="a1.jpeg" alt="Jack" style="display: block; margin: 0 auto;">
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am an aspiring engineering student currently seeking an internship opportunity. Throughout my coursework, I have engaged in various projects encompassing robotics, renewable energy systems, and software development. Each endeavor has fortified distinct technical competencies, ranging from proficient coding in Python to crafting efficient solar-powered systems. Despite the competitive landscape of internship applications, I recognize the necessity for a compelling presentation of my projects, skills, and unique capabilities. In this digital era, a captivating portfolio website serves as an instrumental platform to accentuate my engineering prowess and distinguish myself from other candidates.</p>
+            <p>
+                <b>My Skills</b><br>
+                <ol>
+                    <li>Web Development</li>
+                    <li>Software Development</li>
+                    <li>Communication Languages Known:
+                        <ul>
+                            <li>English</li>
+                            <li>Tamil</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </li>
+                    <li>Programming Languages Known:
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>HTML</li>
+                        </ul>
+                    </li>
+                </ol>
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Robotic Arm Control System</h3>
+                <p>The Robotic Arm Control System, developed using Arduino and Python, is an advanced project designed to achieve precise movements and manipulation of objects. This system integrates the hardware capabilities of an Arduino microcontroller with the versatility of Python programming, creating a robust platform for controlling a robotic arm.</p>
+                <p>
+                    <h4><u>Key Components and Functionality:</u></h4>
+                    <ul>
+                        <li><b>Arduino Microcontroller:</b>
+                            <ul>
+                                <li><b>Servo Motor Control:</b> The Arduino microcontroller controls the servo motors that drive the joints of the robotic arm. Each servo motor's position is precisely controlled by sending specific PWM signals, enabling smooth and accurate movements.</li>
+                                <li><b>Integration:</b> The Arduino can interface with various sensors (e.g., force sensors, infrared sensors) to enhance the arm's ability to interact with its environment, providing feedback for more refined control.</li>
+                            </ul>
+                        </li>
+                        <li><b>Python Programming:</b>
+                            <ul>
+                                <li><b>User Interface:</b> Python is used to create a user-friendly interface for controlling the robotic arm. This can range from simple command-line inputs to more sophisticated graphical user interfaces (GUIs) that allow for real-time control and monitoring.</li>
+                                <li><b>Control Algorithms:</b> Python scripts implement complex control algorithms for trajectory planning, inverse kinematics, and object recognition. These algorithms calculate the necessary movements to achieve desired positions and tasks.</li>
+                                <li><b>Machine Learning:</b> Python's extensive libraries can be utilized for machine learning, enabling the robotic arm to improve its performance over time through data analysis and pattern recognition.</li>
+                            </ul>
+                        </li>
+                        <li><b>Communication Protocols:</b>
+                            <ul>
+                                <li><b>Serial Communication:</b> The Arduino and Python interface via serial communication, allowing for real-time data exchange. Commands from the Python script are sent to the Arduino, which then executes the corresponding movements.</li>
+                                <li><b>Wireless Control:</b> Optionally, the system can incorporate wireless communication (e.g., Bluetooth, Wi-Fi) for remote operation.</li>
+                            </ul>
+                        </li>
+                        <li><b>Precision and Calibration:</b>
+                            <ul>
+                                <li><b>Calibration Routines:</b> The system includes calibration routines to ensure the robotic arm's movements are accurate and repeatable. Calibration involves adjusting the servo positions and tuning the control algorithms based on feedback from sensors.</li>
+                                <li><b>Fine Motor Control:</b> Through precise control of the servo motors, the robotic arm can perform delicate tasks such as picking up small objects, assembling components, or manipulating tools.</li>
+                            </ul>
+                        </li>
+                        <li><b>Applications:</b>
+                            <ul>
+                                <li><b>Industrial Automation:</b> The system can be used in manufacturing processes for tasks like assembly, welding, and material handling.</li>
+                                <li><b>Educational Purposes:</b> It serves as an excellent tool for learning about robotics, control systems, and programming.</li>
+                                <li><b>Research and Development:</b> The platform is ideal for experimenting with new algorithms in robotics, artificial intelligence, and human-machine interaction.</li>
+                                <li><b>Hobbyist Projects:</b> Enthusiasts can use this system for personal projects, prototyping, and exploring creative applications of robotic technology.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="project">
+                <h3>Solar-Powered Water Purification System</h3>
+                <p>The Solar-Powered Water Purification System is an innovative project designed to provide clean and safe drinking water to remote communities with limited access to conventional power sources. This system utilizes solar energy to power a comprehensive water filtration and purification process, making it a sustainable and environmentally friendly solution.</p>
+                <p>
+                    <h4><u>Key Components and Functionality:</u></h4>
+                    <ul>
+                        <li><b>Solar Panels:</b>
+                            <ul>
+                                <li><b>Energy Harvesting:</b> High-efficiency solar panels capture sunlight and convert it into electrical energy. These panels are designed to work efficiently even in low-light conditions, ensuring a continuous supply of power.</li>
+                                <li><b>Battery Storage:</b> Excess energy generated during peak sunlight hours is stored in batteries. This stored energy is used to power the system during cloudy days and at night, ensuring uninterrupted operation.</li>
+                            </ul>
+                        </li>
+                        <li><b>Water Filtration System:</b>
+                            <ul>
+                                <li><b>Pre-Filtration:</b> Water first passes through a pre-filtration stage where large particles and debris are removed. This stage typically involves sediment filters and mesh screens.</li>
+                                <li><b>Carbon Filters:</b> Activated carbon filters are used to remove chlorine, organic compounds, and other contaminants that affect the taste and odor of the water.</li>
+                                <li><b>Reverse Osmosis (RO):</b> The heart of the purification system, the RO membrane, filters out impurities, bacteria, and viruses, providing high-quality potable water. This process is highly effective in removing dissolved salts and heavy metals.</li>
+                                <li><b>Ultraviolet (UV) Sterilization:</b> After the RO process, water passes through a UV sterilization unit that kills any remaining microorganisms, ensuring the water is microbiologically safe.</li>
+                            </ul>
+                        </li>
+                        <li><b>Control and Monitoring System:</b>
+                            <ul>
+                                <li><b>Microcontroller Unit:</b> A microcontroller manages the operation of the entire system, controlling the flow of water, monitoring filter status, and managing power distribution from the solar panels and batteries.</li>
+                                <li><b>Real-Time Monitoring:</b> Sensors provide real-time data on water quality, system performance, and energy levels. This information is displayed on an LCD screen and can be accessed remotely via a mobile app or web interface.</li>
+                                <li><b>Automation:</b> The system can automatically initiate backwash cycles for the filters and signal maintenance alerts when filter replacements are necessary.</li>
+                            </ul>
+                        </li>
+                        <li><b>Water Storage and Distribution:</b>
+                            <ul>
+                                <li><b>Clean Water Tank:</b> Purified water is stored in a clean water tank equipped with a level sensor to prevent overflows and ensure an adequate supply of clean water.</li>
+                                <li><b>Distribution System:</b> The purified water is distributed to the community through taps or a piping network. The system can also be equipped with hand pumps or automatic dispensers to facilitate easy access.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h4><u>Applications and Impact:</u></h4>
+                    <ul>
+                        <li><b>Remote Communities:</b> Provides a reliable source of clean drinking water in areas without access to traditional power grids.</li>
+                        <li><b>Disaster Relief:</b> Can be deployed in disaster-stricken areas to provide immediate water purification solutions.</li>
+                        <li><b>Off-Grid Homes and Schools:</b> Ideal for off-grid homes, schools, and healthcare facilities that require a consistent supply of safe water.</li>
+                        <li><b>Sustainable Development:</b> Supports sustainable development goals by providing an eco-friendly and renewable solution for water purification.</li>
+                    </ul>
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Engineering Portfolio | Designed by Your Name</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Form submitted successfully!');
+        });
+
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.style.backgroundPositionY = -window.scrollY / 2 + 'px';
+        });
+    </script>
+</body>
+</html>
